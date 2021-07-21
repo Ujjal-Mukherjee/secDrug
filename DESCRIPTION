@@ -1,0 +1,9 @@
+Package: CombinationDrugMyeloma
+Type: Package
+Title: The Package Creates Drug Combinations for Myeloma Treatment Applicable to a Wide Population.
+Version: 1.0
+Date: 2021-07-21
+Author: Ujjal K. Mukherjee (ukm@illinois.edu)
+Maintainer: Ujjal K. Mukherjee <ukm@illinois.edu>
+Description: This package contains functions takes the IC50 values for each cell lines corresponding to each drug. The function CombinationDrugs() assigns each of the drugs into responsive and resistant using the threshold l. The threshold l can be set by the user to achieve different levels of classification. The main combination function automatically chooses l to maximize the out-of-sample classification accuracy.
+License: use_mit_license()
